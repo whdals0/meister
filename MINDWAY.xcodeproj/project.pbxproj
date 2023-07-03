@@ -90,11 +90,6 @@
 			children = (
 				07F28B6B2A4E708F0021B9E9 /* ViewController.swift */,
 				07F28B932A4EFF4D0021B9E9 /* TabBar */,
-				07F28B822A4E73080021B9E9 /* Mypage */,
-				07F28B7F2A4E72AD0021B9E9 /* Login */,
-				07F28B802A4E72B60021B9E9 /* Main */,
-				07F28B812A4E72F80021B9E9 /* BookRecommend */,
-				07F28B832A4E744A0021B9E9 /* BookApply */,
 				07F28B902A4EF9780021B9E9 /* Base */,
 			);
 			path = Controller;
@@ -107,41 +102,6 @@
 				07F28B8E2A4EF8E10021B9E9 /* MINDWAYFont.swift */,
 			);
 			path = Font;
-			sourceTree = "<group>";
-		};
-		07F28B7F2A4E72AD0021B9E9 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		07F28B802A4E72B60021B9E9 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		07F28B812A4E72F80021B9E9 /* BookRecommend */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BookRecommend;
-			sourceTree = "<group>";
-		};
-		07F28B822A4E73080021B9E9 /* Mypage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mypage;
-			sourceTree = "<group>";
-		};
-		07F28B832A4E744A0021B9E9 /* BookApply */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BookApply;
 			sourceTree = "<group>";
 		};
 		07F28B902A4EF9780021B9E9 /* Base */ = {

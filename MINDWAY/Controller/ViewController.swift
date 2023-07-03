@@ -8,21 +8,26 @@
 import UIKit
 
 class ViewController: BaseViewController {
-
-    let label = UILabel().then {
+    
+    private let label = UILabel().then {
         $0.text = "~ saranghea ~"
         $0.font = UIFont.appleSDGothicNeoFont(size: 20, family: .Light)
     }
     
     override func addView(){
-        [label].forEach{view.addSubview($0)}
+        [topLogoImage, label].forEach{view.addSubview($0)}
     }
+    
     override func setLayout(){
+        topLogoImage.snp.makeConstraints {
+            $0.width.equalTo(48)
+            $0.height.equalTo(70)
+            $0.top.equalToSuperview().inset(40)
+            $0.centerX.equalToSuperview()
+        }
         label.snp.makeConstraints {
             $0.centerX.centerY.equalToSuperview()
         }
     }
-
-
 }
 

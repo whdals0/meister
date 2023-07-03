@@ -11,6 +11,10 @@ import SnapKit
 
 class BaseViewController: UIViewController {
     
+    lazy var topLogoImage = UIImageView().then {
+        $0.image = UIImage(named: "miniLogo")
+   }
+    
     //@available(*, unavailable)
     override func viewDidLoad() {
         super.viewDidLoad()
