@@ -19,6 +19,7 @@
 		07F28B8F2A4EF8E10021B9E9 /* MINDWAYFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F28B8E2A4EF8E10021B9E9 /* MINDWAYFont.swift */; };
 		07F28B922A4EF98B0021B9E9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F28B912A4EF98B0021B9E9 /* BaseViewController.swift */; };
 		844494CE2A59428000AA6C14 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844494CD2A59428000AA6C14 /* UIColor+Extension.swift */; };
+		844494D72A59502600AA6C14 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844494D62A59502600AA6C14 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		07F28B8E2A4EF8E10021B9E9 /* MINDWAYFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MINDWAYFont.swift; sourceTree = "<group>"; };
 		07F28B912A4EF98B0021B9E9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		844494CD2A59428000AA6C14 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		844494D62A59502600AA6C14 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				844494CD2A59428000AA6C14 /* UIColor+Extension.swift */,
+				844494D62A59502600AA6C14 /* UIButton+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				07F28B6C2A4E708F0021B9E9 /* ViewController.swift in Sources */,
 				07F28B682A4E708F0021B9E9 /* AppDelegate.swift in Sources */,
 				07F28B6A2A4E708F0021B9E9 /* SceneDelegate.swift in Sources */,
+				844494D72A59502600AA6C14 /* UIButton+Extension.swift in Sources */,
 				07F28B8F2A4EF8E10021B9E9 /* MINDWAYFont.swift in Sources */,
 				07F28B922A4EF98B0021B9E9 /* BaseViewController.swift in Sources */,
 			);
