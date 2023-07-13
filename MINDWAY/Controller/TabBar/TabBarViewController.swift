@@ -16,7 +16,7 @@ class TabBarViewController: UITabBarController, UITabBarControllerDelegate {
         self.delegate = self
         
         let recommendVC = ViewController()
-        let mainVC = ViewController()
+        let mainVC = MainViewController()
         let bookApplyVC = ViewController()
         let mypageVC = ViewController()
         
